@@ -1,0 +1,22 @@
+.nav-custom {
+  font-size: 1.3em;
+  font-weight: 400;
+  background-color: rgb(255, 225, 89);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-custom a {
+  color: #000;
+  &:hover {
+    color: rgb(8, 73, 158);
+  }
+  &:active {
+    color: rgb(255, 255, 255);
+  }
+  &.dropdown-item:active {
+    background-color: rgb(221, 166, 63);
+  }
+}
+
+.dropdown-menu {
+  width: 270px;
+}
